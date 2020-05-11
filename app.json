@@ -1,6 +1,4 @@
 {
-  "name": "myapp",
-  "displayName": "myapp",
   "expo": {
     "name": "myapp",
     "slug": "myapp",
@@ -10,6 +8,12 @@
       "android",
       "web"
     ],
+    "android": {
+      "package": "com.myapp",
+      "versionCode": 1,
+      "publishBundlePath": "./android/app/src/main/assets/app.bundle",
+      "publishManifestPath": "./android/app/src/main/assets/app.manifest"
+    },
     "assetBundlePatterns": [
       "**/*"
     ]
